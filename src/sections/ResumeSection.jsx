@@ -37,7 +37,7 @@ export default function ResumeSection() {
               href={personal.resumeUrl}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 px-5 py-3 border border-white/20 text-white font-mono text-xs font-medium rounded hover:bg-white/10 transition"
+              className="flex items-center gap-2 px-5 py-3 bg-zinc-900/90 border border-zinc-700 text-zinc-200 font-mono text-xs font-medium rounded hover:border-[#FF4D00] transition"
             >
               <Eye className="w-4 h-4" />
               View Resume

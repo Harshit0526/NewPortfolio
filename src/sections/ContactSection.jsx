@@ -202,7 +202,7 @@ export default function ContactSection() {
               </a>
               <button
                 onClick={() => setShowResume(true)}
-                className="flex items-center gap-2 px-5 py-3 bg-white text-black font-medium rounded hover:bg-zinc-200 transition"
+                className="flex items-center gap-2 px-5 py-3 bg-zinc-900 border border-zinc-700 text-white font-medium rounded hover:border-[#FF4D00] transition"
               >
                 <FileText className="w-4 h-4" />
                 View Resume
